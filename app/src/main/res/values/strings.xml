@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">SafiProfit</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_transactions">Transactions</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">SafiProfit</string>
+    <string name="dashboard_subtitle">COD Profit Ledger</string>
+    <string name="current_net_profit">Current Net Profit</string>
+    <string name="status_profitable">Profitable</string>
+    <string name="status_breakeven">Break Even</string>
+    <string name="status_loss_prefix">Loss:</string>
+    <string name="net_loss_prefix">Net Loss:</string>
+    <string name="money_received_in_bank">Money Received in Bank</string>
+    <string name="pending_payouts">Pending Payouts</string>
+    <string name="total_business_profit">Total Business Profit</string>
+    <string name="pending_note">Includes received + pending income minus paid ads</string>
+    <string name="bank_note">Received income minus paid ads only</string>
+
+    <!-- Period Labels -->
+    <string name="period_today">Today</string>
+    <string name="period_this_week">This Week</string>
+    <string name="period_this_month">This Month</string>
+    <string name="period_this_year">This Year</string>
+    <string name="period_all_time">All Time</string>
+    <string name="period_custom">Custom</string>
+
+    <!-- Metrics -->
+    <string name="label_income">Income</string>
+    <string name="label_advertising">Advertising</string>
+    <string name="label_ads">Ads</string>
+    <string name="label_net_profit">Net Profit</string>
+    <string name="label_total_income">Total Income</string>
+    <string name="label_total_advertising">Total Advertising</string>
+    <string name="label_total_net_profit">Total Net Profit</string>
+
+    <!-- Actions -->
+    <string name="action_add_income">Add Income</string>
+    <string name="action_add_ad_expense">Add Ad Expense</string>
+    <string name="action_mark_received">Mark as Received</string>
+    <string name="action_save">Save</string>
+    <string name="action_update">Update</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+
+    <!-- Transaction Status -->
+    <string name="status_received">Received</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_paid">Paid</string>
+    <string name="status_received_desc">Money already received in the bank</string>
+    <string name="status_pending_desc">Confirmed earnings not yet arrived in bank</string>
+
+    <!-- Forms -->
+    <string name="sheet_add_income_title">Add Business Income</string>
+    <string name="sheet_edit_income_title">Edit Business Income</string>
+    <string name="sheet_add_ad_title">Add Advertising Expense</string>
+    <string name="sheet_edit_ad_title">Edit Advertising Expense</string>
+    <string name="field_amount">Amount</string>
+    <string name="field_description">Description</string>
+    <string name="field_date">Date</string>
+    <string name="field_status">Status</string>
+    <string name="field_currency">Currency</string>
+    <string name="field_exchange_rate">Exchange Rate (to MAD)</string>
+    <string name="converted_mad_preview">Converted Total</string>
+    <string name="error_invalid_amount">Enter a valid amount greater than 0</string>
+    <string name="error_invalid_rate">Enter a valid exchange rate greater than 0</string>
+    <string name="error_empty_description">Enter a brief description</string>
+
+    <!-- Transactions Screen -->
+    <string name="transactions_title">Transactions</string>
+    <string name="search_transactions_hint">Search payout, Meta Ads, date…</string>
+    <string name="filter_all">All</string>
+    <string name="empty_transactions_title">No transactions yet</string>
+    <string name="empty_transactions_body">Tap Add Income or Add Ad Expense to start tracking your COD net profit.</string>
+    <string name="delete_confirm_title">Delete transaction?</string>
+    <string name="delete_confirm_message">This will permanently remove this entry and recalculate your profit totals.</string>
+
+    <!-- Reports Screen -->
+    <string name="reports_title">Reports</string>
+    <string name="weekly_summary_title">Weekly Summary</string>
+    <string name="compared_previous_week">Compared with previous week</string>
+    <string name="compared_previous_month">Compared with previous month</string>
+    <string name="select_date_range">Select Date Range</string>
+    <string name="breakdown_by_day">Daily Breakdown</string>
+    <string name="breakdown_by_week">Weekly Breakdown</string>
+    <string name="breakdown_by_month">Monthly Breakdown</string>
+    <string name="breakdown_by_year">Yearly Breakdown</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_exchange_rates">Default Exchange Rates</string>
+    <string name="settings_usd_rate">USD ($) to MAD</string>
+    <string name="settings_eur_rate">EUR (€) to MAD</string>
+    <string name="settings_preferences">Display &amp; Calendar</string>
+    <string name="settings_always_decimals">Always show 2 decimals (.00)</string>
+    <string name="settings_week_monday">Week starts on Monday</string>
+    <string name="settings_data_safety">Backup &amp; Data Safety</string>
+    <string name="settings_export_backup">Export JSON Backup</string>
+    <string name="settings_restore_backup">Restore from Backup</string>
+    <string name="settings_clear_data">Clear All Transactions</string>
+    <string name="restore_mode_title">Restore Backup</string>
+    <string name="restore_mode_body">Choose whether to merge new transactions (preventing duplicates) or replace existing data.</string>
+    <string name="restore_merge">Merge</string>
+    <string name="restore_replace">Replace All</string>
+    <string name="clear_confirm_title">Clear all transactions?</string>
+    <string name="clear_confirm_message">All recorded income and advertising expenses will be deleted from this device. Export a backup first if needed.</string>
+</resources>

@@ -1,0 +1,8 @@
+{
+  "name": "SafiProfit",
+  "description": "Simple, accurate daily, weekly, and monthly net profit tracker for COD e-commerce businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
